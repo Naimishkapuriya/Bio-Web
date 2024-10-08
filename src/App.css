@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.text_font {
+  font-size: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg_herader_color {
+  background-color: #252734;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text_color {
+  color: #fff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header_btn {
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 32.5px;
+  line-height: 60px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: 0.5s;
 }
-
-.App-link {
-  color: #61dafb;
+.header_btn:hover{
+  background-color: #2e303d;
+  border: 1px solid #2e303d;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main_container {
+  padding-left: 64px;
+  padding-right: 64px;
+  max-width: 100%;
+  width: 100%;
+}
+.fix_header {
+  z-index: 100;
+}
+.header_list {
+  list-style: none;
+}
+.header_li {
+  padding: 0px 10px;
+}
+.header_li a {
+  text-decoration: none;
+}
+.header_list > .header_li > a::after {
+  position: absolute;
+  content: "";
+  top: 26%;
+  left: 38%;
+  width: 120px;
+  height: 60px;
+  background-image: url(../src/images/menu-hover-shape.webp);
+  transition: 0.5s;
+  opacity: 0;
+}
+.header_list > .header_li > a:hover::after {
+  transform: translate(-5%, -5%) scale(1);
+  visibility: visible;
+  opacity: 1;
 }
