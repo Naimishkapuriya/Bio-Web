@@ -1,13 +1,9 @@
 import React from "react";
-import PageHeader from "./PageHeader";
 
 const Home = () => {
   return (
-    <div>
-      <PageHeader />
-      home
-    </div>
-  );
+   <div className="main_container bg_black">home</div> 
+  )
 };
 
 export default Home;

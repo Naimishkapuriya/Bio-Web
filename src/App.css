@@ -1,11 +1,21 @@
-.text_font {
-  font-size: 20px;
+/* font-family: "Cormorant Garamond", serif; */
+.font_family_cromorant {
+  font-family: "Cormorant Garamond", serif;
 }
-.bg_herader_color {
-  background-color: #252734;
+.font_weight_600 {
+  font-weight: 600;
 }
-.text_color {
-  color: #fff;
+.main_padding {
+  padding-top: 100px;
+}
+.text_font_22px {
+  font-size: 22px;
+}
+.bg_header_color {
+  background-color: #0a223c;
+}
+.bg_black {
+  background-color: black;
 }
 .header_btn {
   padding-left: 40px;
@@ -17,7 +27,7 @@
   color: #fff;
   transition: 0.5s;
 }
-.header_btn:hover{
+.header_btn:hover {
   background-color: #2e303d;
   border: 1px solid #2e303d;
 }
