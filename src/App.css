@@ -52,8 +52,8 @@
 .header_list > .header_li > a::after {
   position: absolute;
   content: "";
-  top: 26%;
-  left: 38%;
+  top: -11%;
+  left: -11%;
   width: 120px;
   height: 60px;
   background-image: url(../src/images/menu-hover-shape.webp);
