@@ -1,7 +1,7 @@
 .main_padding {
   padding-top: 100px;
 }
-.light_black_color{
+.light_black_color {
   color: #b9b9b9;
 }
 .bg_header_color {
@@ -18,7 +18,7 @@
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .header_btn:hover {
   background-color: #2e303d;
@@ -57,4 +57,17 @@
   transform: translate(-5%, -5%) scale(1);
   visibility: visible;
   opacity: 1;
+}
+.video_container {
+  height: 100vh;
+}
+.gradient_overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #8d8b88);
+  z-index: 1;
+}
+.banner_video {
+  z-index: 0;
+}
+.banner_title{
+  z-index: 2;
 }
